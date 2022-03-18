@@ -22,7 +22,7 @@ export default function About() {
         <div className="row row-cols-1 row-cols-md-2 g-4">
   <div className="col">
     <div className="card">
-      <img src='/satellite-api.png' class="card-img-top" alt="satellite-api" width="250px" height="350px" />
+      <img src='/satellite-api.png' className="card-img-top" alt="satellite-api" width="250px" height="350px" />
       <div className="card-body bg-dark">
         <h5 className="card-title text-center text-info">API des satellites</h5>
         
@@ -31,7 +31,7 @@ export default function About() {
   </div>
   <div className="col">
     <div className="card">
-      <img src="/satellite-vsc.png" class="card-img-top" alt="satellite-vsc" width="250px" height="350px" />
+      <img src="/satellite-vsc.png" className="card-img-top" alt="satellite-vsc" width="250px" height="350px" />
       <div className="card-body bg-dark">
         <h5 className="card-title text-center text-info">Map de l API dans mon code</h5>
         
@@ -40,7 +40,7 @@ export default function About() {
   </div>
   <div className="col">
     <div className="card">
-      <img src="/satellite-gsprops.png" class="card-img-top" alt="gspr" width="250px" height="350px"/>
+      <img src="/satellite-gsprops.png" className="card-img-top" alt="gspr" width="250px" height="350px"/>
       <div className="card-body bg-dark">
         <h5 className="card-title text-center text-info">Récupération avec GetStaticProps</h5>
         
@@ -49,7 +49,7 @@ export default function About() {
   </div>
   <div className="col">
     <div className="card">
-      <img src="/link-next.png" class="card-img-top" alt="link" width="250px" height="350px"/>
+      <img src="/link-next.png" className="card-img-top" alt="link" width="250px" height="350px"/>
       <div className="card-body bg-dark">
         <h5 className="card-title text-center text-info">Chemin avec next.js</h5>
         
