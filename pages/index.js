@@ -8,9 +8,10 @@ export default function Home() {
   return (
     <>
     <Layout page='Home'>
-      <h1>La NASA et ses API </h1>
       <br />
-      <img src='/Accueil.jpg'/>
+      <h1 className='text-center text-info'>La NASA et ses API </h1>
+      <br />
+      <img src='/Accueil.jpg' width ="100%" height= "100%"/>
 
     </Layout>
     </>

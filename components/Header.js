@@ -11,7 +11,8 @@ export const Header=()=> {
     
     
   return (
-    <div className={styles.header}>
+      <div className="d-flex justify-content-evenly">
+          <div className={styles.header} >
       <Link href="/" passHref>  
       <span className={router.pathname === "/" ? styles.active : styles.link}>Home</span>
       </Link>
@@ -21,9 +22,14 @@ export const Header=()=> {
       <Link href="/terre" passHref>
       <span className={router.pathname === "/terre" ? styles.active : styles.link}>Terre</span>
       </Link>
+      <Link href="/about" passHref>
+      <span className={router.pathname === "/about" ? styles.active : styles.link}>About</span>
+      </Link>
       
       
-    </div>
+        </div>
+      </div>
+    
   )
 }
 

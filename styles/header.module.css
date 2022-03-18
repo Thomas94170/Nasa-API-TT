@@ -1,7 +1,7 @@
 .header {
   padding: 20px;
   margin: 20 px;
-  border: 2px solid #f2f79e;
+  border: 2px solid #094074;
 }
 
 .link {
@@ -10,5 +10,5 @@
 
 .active {
   margin: 15px;
-  color: #92b9bd;
+  color: #d80032;
 }
